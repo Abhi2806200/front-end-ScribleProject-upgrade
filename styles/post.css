@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+
+
+
+
+
+.container{
+    margin: 0 5%;
+}
+
+
+.container #containerheading{
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.container #containerheadingedit{
+    margin:0px auto;
+    display:none;
+    height: 30px;
+    width: auto;
+    overflow: hidden;
+    font-size: 30px;
+    border: 2px solid lightpink;
+}
+ 
+
+.container .containernameedit{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+.container .containernameedit #name{
+    font-size: 20px;
+}
+
+
+.container .containernameedit #edit{
+    height: 40px;
+    font-size: 15px;
+    padding: 5px 20px;
+    background-color: #ff3385;
+    color: white;
+    border: none;
+    box-shadow: 2px 5px 10px #ff3385;
+}
+
+
+.container .containernameedit #save{
+    display: none;
+    height: 40px;
+    font-size: 15px;
+    padding: 5px 20px;
+    background-color: #ff3385;
+    color: white;
+    border: none;
+    box-shadow: 2px 5px 10px #ff3385;
+}
+
+
+.container #like{
+    margin-top: 10px;
+    height: 40px;
+    font-size: 20px;
+    padding: 5px 40px;
+    background-color: #ff3385;
+    color: white;
+    border: none;
+    box-shadow: 2px 5px 10px #ff3385;
+    border-radius: 5px;
+}
+
+
+.container #commentadd{
+    height: 100px;
+    width: 60%;
+}
+
+
+.container #comment{
+    margin-top: 10px;
+    height: 40px;
+    font-size: 20px;
+    padding: 5px 40px;
+    background-color: #ff3385;
+    color: white;
+    border: none;
+    box-shadow: 2px 5px 10px #ff3385;
+}
+
+
+.container #all_comment{
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    padding: 20px;
+}
+
+
+.container #all_comment .comment_content{
+    background-color: white;
+    width: 100%;
+    height:40px;
+    align-content: center;
+    margin-top: 2px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+#post_body_ed{
+    width: 100%;
+    display: none;
+    margin-top: 10px;
+    border: 2px solid lightblue;
+    font-size: 20px;
+}
+
+
+#body_post{
+     font-size: 20px;
+ }
+
+ 
+ /* Abhishek Agnihotri */

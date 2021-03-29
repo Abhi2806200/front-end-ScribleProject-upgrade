@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+          <!--CSS-->
+          <link href="styles/header.css" rel="stylesheet">
+          <link href="styles/index.css" rel="stylesheet">
+
+          
+         <!--Google font-->
+    <link href='https://fonts.googleapis.com/css?family=Marck+Script|Satisfy' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
+
+
+         <!--font Awesome-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+   
+
+
+</head>
+<body>
+
+
+ <!--Sign UP-->
+<div class="Signup">
+    <div  class="signup_fm">
+        <span class="signup_cl">&times;</span>
+        <h1>Get Started</h1>
+        <hr>
+
+        <form>
+            <p>Full Name</p>
+            <input type="text"  class="name"  placeholder="Enter Full Name" required>
+
+            <p>Username</p>
+            <input type="text" class="u_name" placeholder="Enter Username" required>
+
+            <p>Password</p>
+            <input type="password" class="pass" placeholder="Enter Password" required>
+
+            <p> Confirm Password</p>
+            <input type="password" class="c_pass" placeholder="Confirm Password" required>
+
+            <input type="submit"class="sup_button" value="Sign up" >
+        </form>
+
+    </div>
+</div>
+ 
+
+ <!--Sign IN-->
+<div class="Signin">
+    <div class="signin_fm">
+        <span class="signin_cl">&times;</span>
+        <h1>Welcome Back!</h1>
+        <hr>
+
+        <form>
+            <p>Username</p>
+            <input type="text" class="u_name" placeholder="Enter Username" required>
+
+            <p>Password</p>
+            <input type="password" class="pass" placeholder="Enter Password" required>
+
+            <input type="submit" class="sin_button"  value="Submit">
+
+        </form>
+        <h3 class="Nan_member">Not a member?<a class="signup_in_signin"><span> Sign up </span></a></h3>
+
+    </div>
+</div>
+ 
+
+<!--logo & header-->
+<div class="header">
+    <button class="topButtons" id="btn">Sign Up</button>
+    <button class="topButtons">Sign In</button>
+    <a  class="logo-title">ScriBBler</a>
+    <p class="middleText">Explore, Imagine, Create</p>
+</div>
+
+
+    <!--post modal-->
+<div class="createpostmodal">
+    <div class="createpostform">
+        <span class="createpostclose">&times;</span>
+        <h1>Pen your post</h1>
+        <hr>
+
+        <form>
+            <p>Title:</p>
+            <input type="text" class="u" >
+
+            <p>Content:</p>
+            <textarea></textarea>
+            <input type="submit" class="s" value="Create" >
+
+        </form>
+
+    </div>
+</div>
+
+
+
+<!--buttons-->
+<div id="post_buttons">
+    <a href="html/bloglist.html"><button class="post_in_buttons">All Posts</button></a>
+    <button id="createpost" class="post_in_buttons" onclick="hello()">Create Posts</button>
+</div>
+
+
+<!--JavaScript-->
+<script src="scripts/index.js"></script>
+<script src="scripts/header.js" ></script>
+</body>
+
+<!--By Abhishek Agnihotri
+    ID = 1811981013-->
+
+</html>
